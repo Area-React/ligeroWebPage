@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
+import { startLogin } from "../../../../actions/auth";
 import { useNavigate } from "react-router";
-import { startLogin } from "../../../../actions/services";
 import "./loginPage.css";
 
 export const LoginPage = () => {
@@ -17,13 +17,15 @@ export const LoginPage = () => {
 
   const { correo, passwd } = formLoginValues;
 
-  const iniciarSesion = (e) => {
-    navigate("/home");
+  const iniciarSesion = async (e) => {
+    debugger;
     e.preventDefault();
     console.log("Inicio Sesión");
-    // debugger;
-    dispatch(startLogin(correo, passwd));
+    const resp = await dispatch(startLogin(correo, passwd));
     console.log("Reconocimiento de email");
+    navigate("/", {
+      replace: true,
+    });
   };
 
   return (
@@ -56,7 +58,11 @@ export const LoginPage = () => {
             }
           />
         </p>
-        <button type="button" onClick={iniciarSesion}>
+        <button
+          type="button"
+          className="btn-ini-ses-lig"
+          onClick={iniciarSesion}
+        >
           Inicia Sesión
         </button>
       </form>

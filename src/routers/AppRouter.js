@@ -5,18 +5,36 @@ import {
   Routes,
 } from "react-router-dom";
 import { LigeroLoginRouter } from "./LigeroLoginRouter";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect, useState } from "react";
+import { renewToken } from "../components/actions/auth";
 import { LigeroHomeRouter } from "./LigeroHomeRouter";
 import { LigeroRegisterRoute } from "./LigeroRegisterRoute";
+// import { useSelector } from "react-redux";
+// import { renewToken } from "../components/actions/services";
 
 export const AppRouter = () => {
+  const { id } = useSelector((state) => state.auth);
+  const [loading, setLoading] = useState(true);
+
+  const dispatch = useDispatch();
+  useEffect(() => {
+    async function validarAuth() {
+      // debugger;
+      await dispatch(renewToken());
+      setLoading(false);
+    }
+    validarAuth();
+  }, [dispatch]);
+
   return (
     <Router>
       <div>
         <Routes>
-          <Route path="/register" element={<LigeroRegisterRoute />} />
           <Route path="/login" element={<LigeroLoginRouter />} />
-          <Route path="/home" element={<LigeroHomeRouter />} />
-          <Route path="/" element={<Navigate to ="/login" />}/>
+          <Route path="/register" element={<LigeroRegisterRoute />} />
+          <Route path="/" element={<LigeroHomeRouter />} />
+          <Route path="/" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </Router>

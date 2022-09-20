@@ -2,8 +2,8 @@ import { types } from "../types/types";
 
 const intialState = {
   id: 0,
-  email: "",
-  rol: 0,
+  correo: "",
+  id_rol: 0,
 };
 
 export const authReducers = (state = intialState, action) => {
@@ -11,9 +11,10 @@ export const authReducers = (state = intialState, action) => {
     case types.login:
       return {
         ...state,
+        logged: true,
         id: action.payload.uid,
-        email: action.payload.name,
-        rol: action.payload.rol,
+        correo: action.payload.name,
+        id_rol: action.payload.rol,
       };
     case types.logout:
       return {};

@@ -1,5 +1,10 @@
+.ligero-container-login {
+  position: fixed;
+  left: 42%;
+}
+
 .form-login {
-  width: 25%;
+  width: 100%;
   height: 300px;
   background: #e6e6e6;
   border-radius: 8px;
@@ -7,7 +12,6 @@
   margin: calc(50vh - 320px) auto;
   padding: 20px 30px;
   max-width: calc(100vw - 40px);
-  /* box-sizing: border-box; */
   font-family: "Montserrat", sans-serif;
   position: relative;
 }

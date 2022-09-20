@@ -6,6 +6,7 @@
 .ligero-container {
   position: fixed;
   left: 42%;
+  top: 0;
 }
 
 .form {
@@ -17,7 +18,6 @@
   margin: calc(50vh - 320px) auto;
   padding: 20px 30px;
   max-width: calc(100vw - 40px);
-  /* box-sizing: border-box; */
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
@@ -55,10 +55,8 @@ button {
   padding: 8px 12px;
   margin: 8px 0 0;
   font-family: "Montserrat", sans-serif;
-  /* border: 2px solid #78788c; */
   border: 2px solid #af2423;
   background-color: #af2423;
-  /* color: #5a5a6e; */
   color: white;
   cursor: pointer;
   transition: all 0.3s;
@@ -70,4 +68,4 @@ button:hover {
 }
 span {
   margin: 0 5px 0 15px;
-}
+} 

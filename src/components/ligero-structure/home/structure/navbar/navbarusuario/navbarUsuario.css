@@ -1,4 +1,4 @@
-.ligero-container-navbar {
+.ligero-container-usuario {
   background-color: #af2423;
   padding: 0.4rem;
   display: flex;
@@ -6,12 +6,12 @@
   justify-content: space-between;
 }
 
-.ligero-container-navbar h1 {
+.ligero-container-usuario h1 {
   color: white;
   font-family: "Calibri";
 }
 
-.menu-navbar {
+.menu-ligero-navbar-usu-reg {
   font-family: "Calibri";
   color: white;
   text-decoration: none;

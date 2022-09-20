@@ -7,9 +7,9 @@ export const Navbar = () => {
       <div className="ligero-container-navbar">
         <h1>Ligero</h1>
         <div>
-          <a href="/home">Inicio</a>
-          <a href="/register">Regístrate</a>
-          <a href="/">Iniciar Sesión</a>
+          <a className="menu-navbar" href="/">Inicio</a>
+          <a className="menu-navbar" href="/register">Regístrate</a>
+          <a className="menu-navbar" href="/login">Iniciar Sesión</a>
         </div>
       </div>
     </>

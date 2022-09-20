@@ -1,7 +1,7 @@
 import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 import { authReducers } from "../reducers/authReducers";
-import { modalReducer } from "../reducers/modalReducer";
+// import { modalReducer } from "../reducers/modalReducer";
 
 const composeEnhancers =
   (typeof window !== "undefined" &&
@@ -10,7 +10,7 @@ const composeEnhancers =
 
 const reducers = combineReducers({
   auth: authReducers,
-  modal: modalReducer,
+  // modal: modalReducer,
 });
 
 export const store = createStore(
