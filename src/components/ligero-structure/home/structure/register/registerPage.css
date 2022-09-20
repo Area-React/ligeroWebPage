@@ -1,71 +1,72 @@
-/* body {
-  background: #af2423;
-  margin: 0;
-} */
-
 .ligero-container {
-  position: fixed;
-  left: 42%;
-  top: 0;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  right: 40%; 
 }
 
-.form {
-  width: 340px;
-  height: 700px;
-  background: #e6e6e6;
-  border-radius: 8px;
-  box-shadow: 0 0 40px -10px #000;
-  margin: calc(50vh - 320px) auto;
-  padding: 20px 30px;
-  max-width: calc(100vw - 40px);
-  font-family: "Montserrat", sans-serif;
+.ligero-text-reg {
+  justify-content: center;
   position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  height: 150px;
 }
-h2 {
-  margin: 10px 0;
-  padding-bottom: 10px;
-  width: 180px;
-  color: #af2423;
-  border-bottom: 3px solid #af2423;
-}
-input {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  background: none;
-  outline: none;
-  resize: none;
-  border: 0;
+
+h3.ligero-text-tittle {
   font-family: "Montserrat", sans-serif;
-  transition: all 0.3s;
-  border-bottom: 2px solid #bebed2;
+  text-align: center;
+  font-size: 24px;
 }
-input:focus {
-  border-bottom: 2px solid #78788c;
-}
-p:before {
-  content: attr(type);
-  display: block;
-  margin: 28px 0 0;
+
+p.ligero-text-tittle {
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: #5a5a5a;
+  text-align: center;
 }
-button {
-  float: left;
-  padding: 8px 12px;
-  margin: 8px 0 0;
+
+
+.ligero-contn{
+  margin-top: 20%
+}
+
+
+.ligero-btn-con{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 45%;
+}
+
+.ligero-btn-reg {
+  background-color: #cd272b;
+  border: 7px solid #cd272b;
+  border-radius: 5px;
+  color: aliceblue;
   font-family: "Montserrat", sans-serif;
-  border: 2px solid #af2423;
-  background-color: #af2423;
-  color: white;
-  cursor: pointer;
-  transition: all 0.3s;
+  font-size: 18px;
+  width: 90%;
+  position: relative;
+  margin-left: 5%;
 }
-button:hover {
-  background-color: black;
-  border: 2px solid black;
-  color: #fff;
+
+.ligero-btn-con-emp{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  width: 45%;
 }
-span {
-  margin: 0 5px 0 15px;
-} 
+
+.ligero-btn-reg-emp {
+  background-color: #cd272b;
+  border: 7px solid #cd272b;
+  border-radius: 5px;
+  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  width: 90%;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+}

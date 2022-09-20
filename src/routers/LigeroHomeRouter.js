@@ -15,7 +15,7 @@ export const LigeroHomeRouter = () => {
         id_rol != 3 ? (
           <NavbarUsuario />
         ) : (
-          <RegisterPage />
+          <NavbarUsuario />
         )
       ) : (
         <Navbar/>
