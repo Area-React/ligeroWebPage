@@ -160,7 +160,7 @@ export const CompanyUserRegister = () => {
         </p>
         <p type="Contraseña:">
           <input
-            type="text"
+            type="password"
             name="passwd"
             autoComplete="passwd"
             className="form-control"

@@ -1,9 +1,10 @@
+/* #region [rgba(0, 205, 30, 0.1)] Contenedor Navbar */
 .ligero-container-navbar {
-  background-color: #af2423;
-  padding: 0.4rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  background-color: #f52b37;
+  padding-bottom: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
 }
 
 .ligero-container-navbar h1 {
@@ -11,10 +12,89 @@
   font-family: "Calibri";
 }
 
-.menu-navbar {
-  font-family: "Calibri";
-  color: white;
-  text-decoration: none;
-  margin-right: 1rem;
-  text-transform: uppercase;
+.img-logo-ligero {
+  margin-top: 3%;
 }
+/* #endregion*/
+
+/* #region [rgba (200, 0, 3, 0.4)]  Menú */
+.btn-logo-menu {
+  background-color: #f52b37;
+  border: 7px solid #f52b37;
+  width: 60%;
+  margin-top: 0%;
+}
+
+.btn-logo-ini-sesion {
+  background-color: #f52b37;
+  border: 7px solid #f52b37;
+  width: 70%;
+  margin-top: 0%;
+}
+
+.img-logo-home {
+  color: white;
+}
+
+.menu-navbar {
+  color: white;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10%;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+/* #endregion*/
+
+/* #region [rgba (255, 165, 0, 0.1)]  Responsive 1280 */
+@media only screen and (max-width: 1280px) {
+  .img-logo-ligero {
+    margin-top: 12%;
+  }
+
+  .btn-logo-menu {
+    background-color: #f52b37;
+    border: 7px solid #f52b37;
+    margin-top: 5%;
+  }
+
+  .btn-logo-ini-sesion {
+    background-color: #f52b37;
+    border: 7px solid #f52b37;
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+/* #endregion*/
+
+/* #region [rgba (255, 165, 0, 0.1)]  Responsive 1024 */
+@media only screen and (max-width: 1024px) {
+  .img-logo-ligero {
+    margin-top: 12%;
+  }
+
+  .btn-logo-menu {
+    background-color: #f52b37;
+    border: 7px solid #f52b37;
+    margin-top: 5%;
+  }
+
+  .menu-navbar {
+    color: white;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 10%;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+
+  .btn-logo-ini-sesion {
+    background-color: #f52b37;
+    border: 7px solid #f52b37;
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+/* #endregion*/

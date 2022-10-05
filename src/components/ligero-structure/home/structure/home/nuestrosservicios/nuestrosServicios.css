@@ -1,0 +1,72 @@
+.ligero-round {
+  background-color: #f52b37;
+  border-radius: 26px;
+  position: relative;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 2%;
+}
+
+.ligero-our-services {
+  position: relative;
+  left: 1%;
+  top: 35%;
+}
+
+h3.ligero-our-services {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 40px;
+  text-transform: lowercase;
+}
+
+.ligero-servicio-net {
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.ligero-card-facebook {
+  background-color: #38529a;
+  border-radius: 26px;
+  position: relative;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 32%;
+}
+
+.img-logo-facebook {
+  margin-bottom: 15%;
+  margin-top: 15%;
+  padding-left: 15%;
+}
+
+.ligero-card-twitter {
+  background-color: #74CFF7;
+  border-radius: 26px;
+  position: relative;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 32%;
+}
+
+.ligero-card-instagram {
+  background-color: #AA5EC8;
+  border-radius: 26px;
+  position: relative;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 32%;
+}
+
+.ligero-card-tiktok {
+  background-color: #000000;
+  border-radius: 26px;
+  position: relative;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 32%;
+}

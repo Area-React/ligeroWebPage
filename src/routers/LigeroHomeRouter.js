@@ -1,9 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { LoginPage } from "../components/ligero-structure/home/structure/login/LoginPage";
-import { RegisterPage } from "../components/ligero-structure/home/structure/register/RegisterPage";
 import { NavbarUsuario } from "../components/ligero-structure/home/structure/navbar/navbarusuario/NavbarUsuario";
 import { Navbar } from "../components/ligero-structure/home/structure/navbar/Navbar";
+import { LigeroSlider } from "../components/ligero-structure/home/structure/slider/LigeroSlider";
+import { NuestrosServicios } from "../components/ligero-structure/home/structure/home/nuestrosservicios/NuestrosServicios";
 
 export const LigeroHomeRouter = () => {
   const { id_rol } = useSelector((state) => state.auth);
@@ -13,12 +13,24 @@ export const LigeroHomeRouter = () => {
     <div>
       {localStorage.getItem("token") ? (
         id_rol != 3 ? (
-          <NavbarUsuario />
+          <div>
+            <NavbarUsuario />
+            <LigeroSlider />
+            <NuestrosServicios />
+          </div>
         ) : (
-          <NavbarUsuario />
+          <div>
+            <NavbarUsuario />
+            <LigeroSlider />
+            <NuestrosServicios />
+          </div>
         )
       ) : (
-        <Navbar/>
+        <div>
+          <Navbar />
+          <LigeroSlider />
+          <NuestrosServicios />
+        </div>
       )}
     </div>
   );

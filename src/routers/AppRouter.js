@@ -12,8 +12,6 @@ import { LigeroHomeRouter } from "./LigeroHomeRouter";
 import { LigeroRegisterRoute } from "./LigeroRegisterRoute";
 import { LigeroNaturalUserRouter } from "./LigeroNaturalUserRouter";
 import { LigeroEmpresaUserRouter } from "./LigeroEmpresaUserRouter";
-// import { useSelector } from "react-redux";
-// import { renewToken } from "../components/actions/services";
 
 export const AppRouter = () => {
   const { id } = useSelector((state) => state.auth);

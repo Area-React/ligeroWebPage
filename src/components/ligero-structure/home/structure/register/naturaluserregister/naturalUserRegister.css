@@ -56,11 +56,11 @@ button {
   cursor: pointer;
   transition: all 0.3s;
 }
-button:hover {
+/* button:hover {
   background-color: black;
   border: 2px solid black;
   color: #fff;
-}
+} */
 span {
   margin: 0 5px 0 15px;
 }
