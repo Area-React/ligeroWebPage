@@ -1,0 +1,87 @@
+/* #region [rgba(255, 0, 250, 0.1)] Circulo */
+.ligero-slider-influencers {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.text-servicios {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+/*#endregion*/
+
+/* #region [rgba(200, 20, 30, 0.1)] Circulo */
+.ligero-round-inf {
+  background-color: #f52b37;
+  border-radius: 26px;
+  position: absolute;
+  padding-top: 1%;
+  margin-top: 1%;
+  margin-left: 0%;
+  width: 1%;
+}
+/*#endregion*/
+
+/* #region [rgba(60, 25, 250, 0.1)] Contenedor Texto */
+.ligero-influencers {
+  position: relative;
+  left: 2%;
+  top: 35%;
+  bottom: 10%;
+}
+
+h3.ligero-influencers {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 40px;
+  text-transform: lowercase;
+}
+/*#endregion*/
+
+/* #region [rgba(70, 120, 75, 0.1)] Contenedor Card */
+.card-ligero-1 {
+  background-color: #2daae2;
+  height: 300px;
+}
+
+.card-ligero-2 {
+  background-color: #009045;
+  height: 300px;
+}
+
+.card-ligero-3 {
+  background-color: #d17719;
+  height: 300px;
+}
+
+.card-ligero-4 {
+  background-color: #bd0052;
+  height: 300px;
+}
+
+.card-ligero-5 {
+  background-color: #f72b37;
+  height: 300px;
+}
+/*#endregion*/
+
+/* #region [rgba(60, 135, 255, 0.1)] Contenedor Texto */
+.ligero-card-fam {
+  position: absolute;
+  top: 42%;
+  margin-left: 0.9%;
+}
+
+.ligero-card-famoso {
+  position: absolute;
+  top: 42%;
+  margin-left: 2.2%;
+}
+
+.text-inf-lig {
+  color: white;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 40px;
+  text-transform: lowercase;
+}
+/*#endregion*/

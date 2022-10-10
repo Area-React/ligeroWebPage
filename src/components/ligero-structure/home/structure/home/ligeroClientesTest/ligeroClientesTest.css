@@ -1,0 +1,96 @@
+/* #region [rgba(255, 0, 250, 0.1)] Circulo */
+.clientes-container {
+  background-color: #bebebe;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.text-servicios {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+/*#endregion*/
+
+/* #region [rgba(200, 20, 30, 0.1)] Circulo */
+.ligero-round-opin {
+  background-color: #f52b37;
+  border-radius: 26px;
+  position: absolute;
+  padding-top: 1%;
+  margin-top: 1%;
+  margin-left: 0%;
+  width: 1%;
+}
+/*#endregion*/
+
+/* #region [rgba(60, 25, 250, 0.1)] Contenedor Texto */
+.ligero-opin {
+  position: relative;
+  left: 2%;
+  top: 35%;
+  bottom: 10%;
+}
+
+h3.ligero-opin {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 40px;
+  text-transform: lowercase;
+}
+/*#endregion*/
+
+.tarjeta-clientes {
+  border-radius: 25px;
+  margin-left: 15%;
+  box-sizing: content-box;
+  background-color: white;
+  position: static;
+  margin-top: -15%;
+  width: 71%;
+}
+
+.prueba-test-cliente {
+  padding-left: 15%;
+}
+
+.ligero-cli-opi {
+  right: 35%;
+  left: 2%;
+  font-size: 50px;
+  color: #000;
+}
+
+.ligero-cliente-test {
+  position: relative;
+  border: 12px solid #f52b37;
+  width: 23%;
+  height: 121px;
+  left: 0%;
+}
+
+.prueba-test-clientes {
+  padding: 10px 10px;
+}
+
+p.testimonio-text {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h4.cliente-texto {
+  color: #f52b37;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 35px;
+}
+
+p.cliente-texto {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 15px;
+  font-weight: bold;
+}

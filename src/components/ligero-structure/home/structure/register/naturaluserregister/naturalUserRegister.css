@@ -1,4 +1,4 @@
-.ligero-container-natural {
+/* .ligero-container-natural {
   position: fixed;
   left: 42%;
   top: 0;
@@ -55,12 +55,12 @@ button {
   color: white;
   cursor: pointer;
   transition: all 0.3s;
-}
+} */
 /* button:hover {
   background-color: black;
   border: 2px solid black;
   color: #fff;
 } */
-span {
+/* span {
   margin: 0 5px 0 15px;
-}
+} */

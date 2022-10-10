@@ -27,9 +27,9 @@ export const NuestrosServicios = () => {
             <div className="col-md-3">
               <div className="ligero-card-twitter">
                 <img
-                  className="img-logo-facebook"
-                  src="../assets/facebook.png"
-                  alt="facebook"
+                  className="img-logo-twitter"
+                  src="../assets/twitter.png"
+                  alt="twitter"
                   height="100"
                 />
               </div>
@@ -37,9 +37,9 @@ export const NuestrosServicios = () => {
             <div className="col-md-3">
               <div className="ligero-card-instagram">
                 <img
-                  className="img-logo-facebook"
-                  src="../assets/facebook.png"
-                  alt="facebook"
+                  className="img-logo-instagram"
+                  src="../assets/instagram.png"
+                  alt="instagram"
                   height="100"
                 />
               </div>
@@ -47,9 +47,9 @@ export const NuestrosServicios = () => {
             <div className="col-md-3">
               <div className="ligero-card-tiktok">
                 <img
-                  className="img-logo-facebook"
-                  src="../assets/facebook.png"
-                  alt="facebook"
+                  className="img-logo-tiktok"
+                  src="../assets/tiktok.png"
+                  alt="tiktok"
                   height="100"
                 />
               </div>
