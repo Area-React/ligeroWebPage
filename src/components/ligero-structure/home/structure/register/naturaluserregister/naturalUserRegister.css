@@ -1,66 +1,115 @@
-/* .ligero-container-natural {
-  position: fixed;
-  left: 42%;
-  top: 0;
-}
-
-.form {
-  width: 100%;
-  height: 750px;
-  background: #e6e6e6;
-  border-radius: 8px;
-  box-shadow: 0 0 40px -10px #000;
-  margin: calc(50vh - 320px) auto;
-  padding: 20px 30px;
-  max-width: calc(100vw - 40px);
-  font-family: "Montserrat", sans-serif;
+.container-form-ligero {
+  background: rgba(0, 0, 0, 0.5);
+  background-image: url("./assets/registrate.jpg"),
+    radial-gradient(transparent, black);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 10%;
   position: relative;
 }
-h2 {
-  margin: 10px 0;
-  padding-bottom: 10px;
-  width: 180px;
-  color: #af2423;
-  border-bottom: 3px solid #af2423;
+
+.ligero-container-natural {
+  background-color: transparent;
+  border: solid rgb(9, 9, 9) 1px;
+  border-radius: 10px;
+  height: auto;
+  margin-left: 25%;
+  margin-top: 2%;
+  position: absolute;
+  top: 5%;
+  width: 50%;
 }
-input {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  background: none;
-  outline: none;
-  resize: none;
-  border: 0;
-  font-family: "Montserrat", sans-serif;
-  transition: all 0.3s;
-  border-bottom: 2px solid #bebed2;
+
+.text-reg-lig {
+  margin-left: 5%;
+  margin-top: 2%;
 }
-input:focus {
-  border-bottom: 2px solid #78788c;
-}
-p:before {
-  content: attr(type);
-  display: block;
-  margin: 28px 0 0;
-  font-size: 14px;
-  color: #5a5a5a;
-}
-button {
-  float: left;
-  padding: 8px 12px;
-  margin: 8px 0 0;
-  font-family: "Montserrat", sans-serif;
-  border: 2px solid #af2423;
-  background-color: #af2423;
+
+h3.tit-text-reg-lig {
   color: white;
-  cursor: pointer;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 40px;
+  text-transform: lowercase;
+}
+
+p.tit-text-reg-lig {
+  color: white;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.ligero-cont-pad {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.ligero-formul-con {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.ligero-texto-nom-cont {
+  color: white;
+  font-family: "ITC Avant Garde Gothic Std";
+  text-transform: lowercase;
+}
+
+.ligero-formul-con-1 {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+}
+
+.ligero-formul-con-2 {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.ligero-formul-con-3 {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+}
+
+.ligero-formul-con-4 {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.btn-reg-ligero {
+  background-color: #F52E3A;
+  border: 7px solid #F52E3A;
+  border-radius: 5px;
+  color: aliceblue;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 18px;
+  font-weight: bold;
+  width: 90%;
+  margin-left: 6%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  text-transform: lowercase;
   transition: all 0.3s;
-} */
-/* button:hover {
-  background-color: black;
-  border: 2px solid black;
-  color: #fff;
-} */
-/* span {
-  margin: 0 5px 0 15px;
-} */
+}
+
+.btn-reg-ligero:hover {
+  background-color: #7EBEDF;
+  border: 7px solid #7EBEDF;
+  border-radius: 5px;
+  color: aliceblue;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 18px;
+  font-weight: bold;
+  width: 90%;
+  margin-left: 6%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  text-transform: lowercase;
+  transition: all 0.3s;
+}

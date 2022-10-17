@@ -15,19 +15,19 @@ export const RegisterPage = () => {
 
   return (
     <>
-      <div className="ligero-container">
-        <div className="row m-0 p-0">
-          <div className="col-md-12 col-lg-6">
-            <div className="row m-0 p-0">
+      <div className="container-form-contacto">
+        <div className="ligero-container">
+          <div className="row m-0 p-0">
+            <div className="col-md-12 col-lg-6">
               <div className="ligero-text-reg">
-                <h3 className="ligero-text-tittle">
-                  ¿Te parece si comenzamos?
-                </h3>
-                <p className="ligero-text-tittle">Creando tu cuenta Ligero</p>
-              </div>
-            </div>
+                <h3 className="ligero-text-tittle">¿Quieres que</h3>
+                <h3 className="ligero-text-tittle">comencemos?</h3>
 
-            <div className="row">
+                <p className="ligero-text-tittle">
+                  Para registrarte debes seleccionar tu perfil.
+                </p>
+              </div>
+
               <div className="ligero-contn">
                 <div className="col-sm-6 col-xs-12 m-0 p-0">
                   <div className="ligero-btn-con">

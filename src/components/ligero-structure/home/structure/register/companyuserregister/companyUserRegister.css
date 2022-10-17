@@ -1,17 +1,103 @@
 .ligero-container-empresa {
-  padding-left: 2%;
-  padding-right: 5%;
+  background-color: transparent;
+  border: solid rgb(9, 9, 9) 1px;
+  border-radius: 10px;
+  height: auto;
+  margin-left: 25%;
+  margin-top: 2%;
+  position: absolute;
+  top: 5%;
+  width: 50%;
 }
 
-.form {
-  width: 100%;
-  height: 845px;
-  background: #e6e6e6;
-  border-radius: 8px;
-  box-shadow: 0 0 40px -10px #000;
-  margin: calc(50vh - 320px) auto;
-  padding: 20px 30px;
-  max-width: calc(100vw - 40px);
-  font-family: "Montserrat", sans-serif;
-  position: relative;
+.text-reg-lig-emp {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+h3.tit-text-reg-lig-emp {
+  color: white;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 40px;
+  text-transform: lowercase;
+}
+
+p.tit-text-reg-lig-emp {
+  color: white;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.ligero-cont-pad-emp {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
+
+.ligero-formul-con-emp {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.ligero-texto-nom-cont-emp {
+  color: white;
+  font-family: "ITC Avant Garde Gothic Std";
+  text-transform: lowercase;
+}
+
+.ligero-formul-con-emp-1 {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+}
+
+.ligero-formul-con-emp-2 {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+}
+
+.ligero-formul-con-emp-3 {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+}
+
+.ligero-formul-con-emp-4 {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+}
+
+.btn-reg-ligero-emp {
+  background-color: #F52E3A;
+  border: 7px solid #F52E3A;
+  border-radius: 12px;
+  color: white;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 6%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 90%;
+  text-transform: lowercase;
+  transition: all 0.3s;
+}
+
+.btn-reg-ligero-emp:hover {
+  background-color: #7EBEDF;
+  border: 7px solid #7EBEDF;
+  border-radius: 12px;
+  color: white;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 6%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 90%;
+  text-transform: lowercase;
+  transition: all 0.3s;
 }

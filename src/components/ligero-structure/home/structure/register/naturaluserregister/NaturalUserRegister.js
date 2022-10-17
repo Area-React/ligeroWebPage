@@ -52,126 +52,189 @@ export const NaturalUserRegister = () => {
 
   console.log("Persona Natural : ", personaNatural);
   return (
-    <div className="ligero-container-natural">
-      <form className="form">
-        <h2>Registrate</h2>
-        <p>Usuario Natural</p>
-        <p type="Nombre:">
-          <input
-            type="text"
-            name="nombre-completo"
-            autoComplete="nombre-completo"
-            className="form-control"
-            value={personaNatural.nomNat}
-            onChange={(e) =>
-              setPersonaNatural({
-                ...personaNatural,
-                nomNat: e.target.value,
-              })
-            }
-            required
-          />
-        </p>
-        <p type="Tipo de documento:">
-          <input
-            type="text"
-            name="tipo_doc"
-            autoComplete="tipo_doc"
-            className="form-control"
-            value={personaNatural.tipDoc}
-            onChange={(e) =>
-              setPersonaNatural({
-                ...personaNatural,
-                tipDoc: e.target.value,
-              })
-            }
-            required
-          />
-        </p>
-        <p type="Documento:">
-          <input
-            type="text"
-            name="doc_nat"
-            autoComplete="doc_nat"
-            className="form-control"
-            value={personaNatural.docNat}
-            onChange={(e) =>
-              setPersonaNatural({
-                ...personaNatural,
-                docNat: e.target.value,
-              })
-            }
-            required
-          />
-        </p>
-        <p type="Correo:">
-          <input
-            type="email"
-            name="correo"
-            autoComplete="correo"
-            className="form-control"
-            value={personaNatural.correo}
-            onChange={(e) =>
-              setPersonaNatural({
-                ...personaNatural,
-                correo: e.target.value,
-              })
-            }
-            required
-          />
-        </p>
-        <p type="Telefono:">
-          <input
-            type="text"
-            name="tel_nat"
-            autoComplete="tel_nat"
-            className="form-control"
-            value={personaNatural.telNat}
-            onChange={(e) =>
-              setPersonaNatural({
-                ...personaNatural,
-                telNat: e.target.value,
-              })
-            }
-            required
-          />
-        </p>
-        <p type="Ciudad:">
-          <input
-            type="text"
-            name="ciu_nat"
-            autoComplete="ciu_nat"
-            className="form-control"
-            value={personaNatural.ciuNat}
-            onChange={(e) =>
-              setPersonaNatural({
-                ...personaNatural,
-                ciuNat: e.target.value,
-              })
-            }
-            required
-          />
-        </p>
-        <p type="Contraseña:">
-          <input
-            type="text"
-            name="passwd"
-            autoComplete="passwd"
-            className="form-control"
-            value={personaNatural.passwd}
-            onChange={(e) =>
-              setPersonaNatural({
-                ...personaNatural,
-                passwd: e.target.value,
-              })
-            }
-            required
-          />
-        </p>
-        <button type="submit" onClick={enviarPersonaNatural}>
-          Registrate
-        </button>
-      </form>
-    </div>
+    <>
+      <div className="container-form-ligero">
+        <div className="ligero-container-natural">
+          <div className="row">
+            <div className="col-md-12 m-0 p-0">
+              <div className="text-reg-lig">
+                <h3 className="tit-text-reg-lig">Registrate</h3>
+                <p className="tit-text-reg-lig">Usuario Natural</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="ligero-cont-pad">
+              <div className="ligero-formul-con row">
+                <div className="col-md-12">
+                  <div className="ligero-form-cont">
+                    <label className="ligero-texto-nom-cont">Nombre</label>
+                    <input
+                      type="text"
+                      name="nombre-completo"
+                      autoComplete="nombre-completo"
+                      className="input-ligero form-control"
+                      value={personaNatural.nomNat}
+                      onChange={(e) =>
+                        setPersonaNatural({
+                          ...personaNatural,
+                          nomNat: e.target.value,
+                        })
+                      }
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="ligero-formul-con-1 row">
+                <div className="col-md-6">
+                  <div className="ligero-form-cont">
+                    <label className="ligero-texto-nom-cont">
+                      Tipo de documento
+                    </label>
+                    <input
+                      type="text"
+                      name="tipo_doc"
+                      autoComplete="tipo_doc"
+                      className="form-control"
+                      value={personaNatural.tipDoc}
+                      onChange={(e) =>
+                        setPersonaNatural({
+                          ...personaNatural,
+                          tipDoc: e.target.value,
+                        })
+                      }
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-6">
+                  <div className="ligero-form-cont">
+                    <label className="ligero-texto-nom-cont">Documento</label>
+                    <p type="Documento:">
+                      <input
+                        type="text"
+                        name="doc_nat"
+                        autoComplete="doc_nat"
+                        className="form-control"
+                        value={personaNatural.docNat}
+                        onChange={(e) =>
+                          setPersonaNatural({
+                            ...personaNatural,
+                            docNat: e.target.value,
+                          })
+                        }
+                        required
+                      />
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="ligero-formul-con-2 row">
+                <div className="col-md-12">
+                  <div className="ligero-form-cont">
+                    <label className="ligero-texto-nom-cont">Correo</label>
+                    <input
+                      type="text"
+                      name="correo"
+                      autoComplete="correo"
+                      className="form-control"
+                      value={personaNatural.correo}
+                      onChange={(e) =>
+                        setPersonaNatural({
+                          ...personaNatural,
+                          correo: e.target.value,
+                        })
+                      }
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="ligero-formul-con-3 row">
+                <div className="col-md-6">
+                  <div className="ligero-form-cont">
+                    <label className="ligero-texto-nom-cont">Teléfono</label>
+                    <input
+                      type="text"
+                      name="tel_nat"
+                      autoComplete="tel_nat"
+                      className="form-control"
+                      value={personaNatural.telNat}
+                      onChange={(e) =>
+                        setPersonaNatural({
+                          ...personaNatural,
+                          telNat: e.target.value,
+                        })
+                      }
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-6">
+                  <div className="ligero-form-cont">
+                    <label className="ligero-texto-nom-cont">Ciudad</label>
+                    <p type="Documento:">
+                      <input
+                        type="text"
+                        name="ciu_nat"
+                        autoComplete="ciu_nat"
+                        className="form-control"
+                        value={personaNatural.ciuNat}
+                        onChange={(e) =>
+                          setPersonaNatural({
+                            ...personaNatural,
+                            ciuNat: e.target.value,
+                          })
+                        }
+                        required
+                      />
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="ligero-formul-con-4 row">
+                <div className="col-md-12">
+                  <div className="ligero-form-cont">
+                    <label className="ligero-texto-nom-cont">Contraseña</label>
+                    <input
+                      type="password"
+                      name="passwd"
+                      autoComplete="passwd"
+                      className="form-control"
+                      value={personaNatural.passwd}
+                      onChange={(e) =>
+                        setPersonaNatural({
+                          ...personaNatural,
+                          passwd: e.target.value,
+                        })
+                      }
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <button
+                type="submit"
+                className="btn-reg-ligero"
+                onClick={enviarPersonaNatural}
+              >
+                Registrate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
