@@ -68,14 +68,24 @@ h3.ligero-influencers {
 /* #region [rgba(60, 135, 255, 0.1)] Contenedor Texto */
 .ligero-card-fam {
   position: absolute;
-  top: 42%;
+  top: 15%;
   margin-left: 0.9%;
 }
 
 .ligero-card-famoso {
   position: absolute;
-  top: 42%;
+  top: 24%;
   margin-left: 2.2%;
+}
+
+.ligero-i-cat {
+  margin-left: 25%;
+  width: 50%;
+}
+
+.ligero-i-fam {
+  /* margin-left: 25%; */
+  width: 25%;
 }
 
 .text-inf-lig {

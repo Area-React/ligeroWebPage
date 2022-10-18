@@ -26,26 +26,31 @@ export default class LigeroInfluencers extends Component {
         <Slider {...settings}>
           <div className="card-ligero-1">
             <div className="ligero-card-fam">
+              <img className="ligero-i-cat" src="../assets/ligero_micro.png" alt="micro" />
               <h3 className="text-inf-lig">MicroInfluencer</h3>
             </div>
           </div>
           <div className="card-ligero-2">
             <div className="ligero-card-fam">
+              <img className="ligero-i-cat" src="../assets/ligero_medio.png" alt="medio" />
               <h3 className="text-inf-lig">Influencer Medio</h3>
             </div>
           </div>
           <div className="card-ligero-3">
             <div className="ligero-card-fam">
+              <img className="ligero-i-cat" src="../assets/ligero_macro.png" alt="macro" />
               <h3 className="text-inf-lig">Macroinfluencer</h3>
             </div>
           </div>
           <div className="card-ligero-4">
             <div className="ligero-card-fam">
+              <img className="ligero-i-cat" src="../assets/ligero_mega.png" alt="mega" />
               <h3 className="text-inf-lig">Megainfluencer</h3>
             </div>
           </div>
           <div className="card-ligero-5">
             <div className="ligero-card-famoso">
+              <img className="ligero-i-fam" src="../assets/ligero_famoso.png" alt="famoso" />
               <h3 className="text-inf-lig">Famoso</h3>
             </div>
           </div>

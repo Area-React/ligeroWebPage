@@ -18,3 +18,11 @@
   margin-right: 1rem;
   text-transform: uppercase;
 }
+
+.usuario-n-l {
+  color: white;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
